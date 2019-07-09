@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Barriecito&display=swap');
+.sandbox{
+    position: relative;
+    text-align: center;
+    font-family: 'barriecito';
+}
+
+.shadow-typo{
+    position: relative;
+    display: inline-block;
+    font-size: 4rem;
+    text-transform:  uppercase;
+    color: #00b3b4;
+    text-shadow: 3px 3px 0px #e7eef1, 8px 8px 0px rgba(0,0,0,0.1);
+}
+
+.threedee-typo{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: red;
+    /* -webkit-transform: skew(-5deg, -5deg) rotate(5deg); */
+    transform: skew(-5deg, -5deg) rotate(5deg);
+    /* -webkit-transform-origin: center center; */
+    transform-origin: center center;
+    text-shadow:1px 1px pink,
+                2px 2px pink,
+                3px 3px pink,
+                4px 4px pink,
+                5px 5px pink,
+                6px 6px pink,
+                8px 8px salmon,
+                11px 11px rgba(125, 0, 0, 0.1)
+}
